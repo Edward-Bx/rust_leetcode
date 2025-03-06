@@ -14,7 +14,7 @@ pub fn unique_ints_sum_zero(n: i32) -> Vec<i32> {
         if !once {
             outcome.push(j);
         } else {
-            outcome.push(&j * -1);
+            outcome.push(j * -1);
             j += 1;
         }
     }
